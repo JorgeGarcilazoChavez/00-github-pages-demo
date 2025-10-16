@@ -1,18 +1,129 @@
-header.box-one{
-    background-color: red;
-    padding: 30px;
+html{
+    background-color: white;
+}
+.box-one{
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px 16px 10px 16px;
+    align-items: center;
     border-bottom: 5px solid black;
     height: 100%;
     width: 100%;
 }
-
-.box-two{
-    background-color: green;
-    height: 100%;
-    width: 100%;
-    padding: 1px;
+header.box-one{
+    margin: 0;
 }
 
-.box-two{
-    
+.box-one h1{
+    margin: 0;
+    font-family: "Egyptienne W01 Bold Condensed";
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.box-one p{
+    margin: 0;
+    font-family: "Miller Display";
+    font-weight: 400;
+}
+
+main{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-section{
+    display: inline-block;
+    border: 1px solid #cac8c2;
+    position: relative;
+    left: 30%;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: "Miller Display";
+    border-radius: 10px;
+}
+
+
+.contact-section h3{
+    font-family: 'Kabel Black';
+      margin-bottom: 10px;
+}
+
+.about-section{
+  width: 600px;
+  position: relative;
+  left: 31%;
+  padding: 20px 60px 20px 20px;
+  border: 1px solid #cac8c2;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Miller Display";
+  border-radius: 10px;
+}
+
+
+.about-section h3{
+    font-family: 'Kabel Black';
+      margin-bottom: 10px;
+}
+
+.skills-section{
+  width: 600px;
+  position: relative;
+  left: 31%;
+  padding: 20px 60px 20px 20px;
+  border: 1px solid #cac8c2;
+  margin-bottom: 10px;
+  font-family: "Miller Display";
+  border-radius: 10px;
+}
+
+
+.skills-section h3{
+    font-family: 'Kabel Black';
+      margin-bottom: 10px;
+}
+
+.skills-section ul {
+  margin-left: 40px;
+}
+
+.links-section{
+  width: 600px;
+  position: relative;
+  left: 31%;
+  padding: 20px 60px 20px 20px;
+  border: 1px solid #cac8c2;
+  font-family: "Miller Display";
+  border-radius: 10px;
+}
+
+
+.links-section h3{
+    font-family: 'Kabel Black';
+      margin-bottom: 10px;
+}
+
+.links-section ul {
+  margin-left: 40px;
+  font-family: "Miller Display";
+}
+
+.profile-pic img{
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    display: flex;
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    border-top: 5px solid lightgray;
+    background-color: white;
+    text-align: center;
 }
